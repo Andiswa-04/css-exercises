@@ -7,14 +7,33 @@ body {
   width: 400px;
   background: white;
   margin: 16px auto;
+  padding : 10px;
+}
+.title{
+  font-size: 20px;
+
 }
 
 .title,
 .content,
 .button-container {
   background: dodgerblue;
+  padding : 15px ;
 }
+
+.button-container {
+  margin : 10px auto;
+  text-align: center;
+}
+
 
 button {
   background: white;
+  display : block;
+  padding : 10px 30px;
+  border : 2px black solid; 
+  margin : 0 auto;
+  
+  
+
 }
